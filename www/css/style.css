@@ -1,0 +1,145 @@
+html{
+	background-color: #f9f9f9;
+}
+
+body{
+	margin: 0% 5% 0% 5%;
+	border: 1px solid gray;
+	background-color: white;
+}
+
+			/*content*/
+.content{
+	width: 97.5%;
+	}
+	
+img{
+	width: 60%;
+	float: right;
+	margin: 4%;
+}
+			
+			/*header*/
+header a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.name{
+	padding: 3% 6%;
+	font-family: sans-serif;
+	font-weight:bold;
+	font-size: 3em;
+}
+
+header{
+	margin: 0% 6%;
+	background: linear-gradient(to top, #474747,#5c5c5c);
+	box-shadow: 0 -1px 2px black;
+	height: 35px;
+}
+
+ul.header {
+	margin: 0; 
+	padding: 8px;
+}
+
+ul.header li {
+	display:inline;
+	border: 1px solid transparent;
+	margin-right: 25px; 
+	padding: 10px; 
+	color: white;
+	font-family: arial;
+	text-shadow: 1px 1px 1px black;
+ }
+ 
+ ul.header li:hover {
+	background: linear-gradient(to top, #333333,#4a4a4a);
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin-right: 25px; 
+	padding: 10px; 
+	height: 35px;
+ }
+   			/*sidebar*/
+.sidebar{
+	margin-top: 4%;
+	margin-left: 6%;
+	width: 25%;
+	float: left;
+}
+				
+.sidebar .menu a{
+	display:block;
+	text-decoration: none;
+	color: black;
+	padding: 0px 10px;
+	background-color: #ffffff;
+	font-size: 1em;
+ }
+	
+.sidebar .menu a:hover{
+	
+	font-weight: bold;
+	padding: 0px 20px;
+}
+
+.text{
+	padding: 0 5% 4% 40%;
+	font-family: sans-serif;
+	font-size: 1em;
+}
+ 
+ul.menu li {
+	list-style-type: none; 
+	padding: 10px; 
+	font-family: sans-serif;
+	border-top: 1px solid #c7c7c7; 
+	border-left: 1px solid #c7c7c7; 
+	border-right: 1px solid #c7c7c7; 
+}	
+
+ul.menu li:last-child{
+	border-bottom: 1px solid #c7c7c7; 
+}
+
+			/*footer*/
+footer{
+	margin: 0% 6% 6% 6%;
+	background-color: #e0e0e0;
+	height: 35px;
+	position: relative;
+}
+
+footer a{
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+ul.footer {
+	margin: 0; 
+	padding: 7px;
+}
+
+ul.footer li {
+	display: inline; 
+	margin-right: 25px; 
+	padding: 10px; 
+	color: #4d4d4d;
+	font-family: sans-serif;
+}
+
+ul.footer li:last-child{
+	text-align: right;
+	margin-left: 15%;
+	position:absolute;
+	right: 3px;
+	bottom: 0px;
+}
+
